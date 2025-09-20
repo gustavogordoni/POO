@@ -10,28 +10,35 @@ package D_While_DoWhile_Ex02;
  */
 public class VogalConsoante {
 
-    private int qntVogal = 0, qntConsoante = 0;
+    private int vogalA, vogalE, vogalI, vogalO, vogalU, qntConsoante = 0;
     private String letra = "";
 
     public void verificarCaractere(String letra) {
         this.letra = letra;
 
-        if (this.letra.equalsIgnoreCase("a")
-        || this.letra.equalsIgnoreCase("e")
-        || this.letra.equalsIgnoreCase("i")
-        || this.letra.equalsIgnoreCase("o")
-        || this.letra.equalsIgnoreCase("u")) {
-            this.qntVogal++;
-        }else{
+        if (this.letra.equalsIgnoreCase("a")){
+					this.vogalA++;
+				}else if(this.letra.equalsIgnoreCase("e")){
+					this.vogalE++;
+				}
+				else if(this.letra.equalsIgnoreCase("i")){
+					this.vogalI++;
+				}
+				else if(this.letra.equalsIgnoreCase("o")){
+					this.vogalO++;
+				}else if(this.letra.equalsIgnoreCase("u")){
+					this.vogalU++;				
+				}else if(!letra.equals("0")){
             this.qntConsoante++;
         }
     }
 
-    public int getQntVogal() {
-        return qntVogal;
-    }
-
-    public int getQntConsoante() {
-        return qntConsoante;
-    }    
+		public String exibirInfo(){
+            return "Vogais A: " + this.vogalA +
+            "\nVogal E: " + this.vogalE +
+            "\nVogal I: " + this.vogalI +
+            "\nVogal O: " + this.vogalO +
+            "\nVogal U: " + this.vogalU +
+            "\nConsoantes: " + this.qntConsoante;
+		}
 }

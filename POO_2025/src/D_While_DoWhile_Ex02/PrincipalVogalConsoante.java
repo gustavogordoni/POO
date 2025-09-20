@@ -22,8 +22,6 @@ public class PrincipalVogalConsoante {
             vogalConsoante.verificarCaractere(letra);
         }
         
-        JOptionPane.showMessageDialog(null, "A quantidade de VOGAIS informadas foi: " + vogalConsoante.getQntVogal());
-        JOptionPane.showMessageDialog(null, "A quantidade de CONSOANTES informadas foi: " + vogalConsoante.getQntConsoante());               
-    }
-    
+        JOptionPane.showMessageDialog(null, vogalConsoante.exibirInfo());
+    }    
 }

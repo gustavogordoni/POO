@@ -27,7 +27,7 @@ public class VeiculoVIEW {
             MotoDTO motoDTO = new MotoDTO();
 
             motoDTO.setPlaca(JOptionPane.showInputDialog("Infome a Placa da moto: "));
-            motoDTO.setCor(JOptionPane.showInputDialog("Infome a Cor da moto: "));
+            motoDTO.setCor(JOptionPane.showInputDialog("Infome a Cor da moto: "));            
             motoDTO.setCilindrada(Integer.parseInt(JOptionPane.showInputDialog("Infome a Cilindrada da moto: ")));
             motoDTO.setTipo_motor(JOptionPane.showInputDialog("Infome o tipo do Motor 2T ou 4T: "));
 

@@ -1,6 +1,7 @@
 package G_Heranca_Ex01;
 
 public class MotoDTO extends VeiculoDTO {
+
     private int cilindrada;
     private String tipo_motor;
 
@@ -19,7 +20,4 @@ public class MotoDTO extends VeiculoDTO {
     public void setTipo_motor(String tipo_motor) {
         this.tipo_motor = tipo_motor;
     }
-
-  
-    
 }

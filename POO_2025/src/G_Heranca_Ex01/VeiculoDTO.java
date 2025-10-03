@@ -1,6 +1,7 @@
 package G_Heranca_Ex01;
 
 public class VeiculoDTO {
+
     private String placa, cor;
 
     public String getPlaca() {
@@ -18,5 +19,4 @@ public class VeiculoDTO {
     public void setCor(String cor) {
         this.cor = cor;
     }
-    
 }

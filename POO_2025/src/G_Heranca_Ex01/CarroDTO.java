@@ -1,6 +1,7 @@
 package G_Heranca_Ex01;
 
 public class CarroDTO extends VeiculoDTO {
+
     private int potencia, qtd_portas;
 
     public int getPotencia() {
@@ -18,6 +19,4 @@ public class CarroDTO extends VeiculoDTO {
     public void setQtd_portas(int qtd_portas) {
         this.qtd_portas = qtd_portas;
     }
-    
-    
 }
